@@ -10,3 +10,9 @@ print(123_456 + 654_321)
 
 #float
 print(23.45)
+
+# Boolean
+
+print(True)
+print(False)
+
