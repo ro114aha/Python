@@ -8,3 +8,6 @@ name+second_name
 print(name+" "+second_name)
 # print text 
 print("Hello "+name+" "+second_name)
+
+#f-string concatenation
+print(f"Hello {name} {second_name}")
