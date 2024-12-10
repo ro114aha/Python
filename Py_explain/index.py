@@ -1,0 +1,1 @@
+print("Amsterdam"[0])
