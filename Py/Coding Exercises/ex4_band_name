@@ -1,0 +1,27 @@
+# band name generator
+"""
+This script is a Band Name Generator.
+It prompts the user to input the name of their city and the name of their animal,
+then combines these inputs to generate and display a potential band name.
+Functions:
+    None
+Usage:
+    Run the script and follow the prompts to input the name of your city and animal.
+    The script will then output a suggested band name based on your inputs.
+"""
+print("Welcome to the Band name generator.")
+
+# input name of your city
+# The \n at the end of the input prompt adds a line break for better readability in the console
+city_name =(input("What is the name of your city?:\n"))
+print(city_name)
+# input name of  your animal
+animal_name =(input("What is the name of your animal?:\n"))
+print(animal_name)
+# generate band name
+# concatenation of two variables to create the band name
+band_name =("You can name your band :"+ city_name+" "+animal_name)
+print(band_name)
+# concatenation by using f-string
+rev_band_name=(f"or : {animal_name} {city_name}")
+print(rev_band_name)
