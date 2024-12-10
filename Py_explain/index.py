@@ -1,3 +1,3 @@
 print("Amsterdam"[0])
 
-"Sophie"
+"Sophie"[3]
