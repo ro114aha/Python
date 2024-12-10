@@ -8,3 +8,5 @@ print(type(12345))
 print(type(34.90))
 # boolean
 print(type(True))
+
+
