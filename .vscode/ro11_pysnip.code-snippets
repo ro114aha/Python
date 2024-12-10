@@ -10,7 +10,7 @@
 		"scope": "python",
 		"prefix": "prt",
 		"body": [
-			"print()"
+			"print(${1:argument})"
 			
 		],
 	 	"description": "print"
