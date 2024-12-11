@@ -36,3 +36,9 @@ print(bmi)
 #complete formular add weight
 bmi = weight / (height ** 2)
 print(bmi)
+
+# floor vs round
+print(int(bmi)) # this remove numbers afte rcomma
+print(round(bmi)) # this wil round the number 
+print(round(bmi,2)) # rounds the number with x-digits behind the comma
+print(round(bmi,3)) # rounds the number with x-digits behind the comma
