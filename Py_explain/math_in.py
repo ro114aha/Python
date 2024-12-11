@@ -24,3 +24,10 @@
 
 # debug to understand the order
 print(3*(3 + 3)/3 -3)
+
+# BMI Calculation
+height = 1.86
+weight = 101
+#formular= weight divided by the person's height squared
+print(type(height))
+# bmi = 
