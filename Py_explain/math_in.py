@@ -30,4 +30,9 @@ height = 1.86
 weight = 101
 #formular= weight divided by the person's height squared
 print(type(height))
-# bmi = 
+#test height squared
+bmi = (height**2)
+print(bmi)
+#complete formular add weight
+bmi = weight / (height ** 2)
+print(bmi)
