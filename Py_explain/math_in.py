@@ -42,3 +42,21 @@ print(int(bmi)) # this remove numbers afte rcomma
 print(round(bmi)) # this wil round the number 
 print(round(bmi,2)) # rounds the number with x-digits behind the comma
 print(round(bmi,3)) # rounds the number with x-digits behind the comma
+
+# Mathematical operations
+
+number = 5
+number += 1
+print(number)
+
+number = 5
+number -= 1
+print(number)
+
+number = 5
+number *= 2
+print(number)
+
+number = 5
+number /= 5
+print(round(number))
