@@ -1,9 +1,9 @@
 # Read the original file
-with open('/c:/_git/Python/source/asa-saj-d.txt', 'r') as file:
+with open(r'c:\_git\Python\source\asa-saj-d.txt', 'r') as file:
     lines = file.readlines()
 
 # Process each line and write to a new file
-with open('/c:/_git/Python/source/asa-saj-a.txt', 'w') as new_file:
+with open(r'c:\_git\Python\source\asa-saj-a.txt', 'w') as new_file:
     for line in lines:
         # Replace 'd' with 'a' in the second column
         parts = line.split('\t')
