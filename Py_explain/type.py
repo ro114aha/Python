@@ -2,7 +2,7 @@
 # string
 type("hello")
 print(type("hello"))
-# inteter
+# integer
 print(type(12345))
 # float
 print(type(34.90))
