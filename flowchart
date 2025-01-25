@@ -1,0 +1,26 @@
+digraph {
+	Start [label=Start]
+	Display_Welcome [label="Display Welcome Message"]
+	Input_Choice1 [label="Input Choice 1 (left or right)"]
+	Decision1 [label="Decision 1: Choice 1 == \"left\"?"]
+	Display_Message [label="Display Message"]
+	Game_Over [label="Display \"Game Over\" Message"]
+	End1 [label=End]
+	Input_Choice2 [label="Input Choice 2"]
+	Decision2 [label="Decision 2: Choice 2 == \"red\"?"]
+	Correct_Door [label="Display \"Correct Door\""]
+	Wrong_Door [label="Display \"Wrong. You're out of the game!\""]
+	End2 [label=End]
+	Start -> Display_Welcome
+	Display_Welcome -> Input_Choice1
+	Input_Choice1 -> Decision1
+	Decision1 -> Display_Message [label=Yes]
+	Decision1 -> Game_Over [label=No]
+	Game_Over -> End1
+	Display_Message -> Input_Choice2
+	Input_Choice2 -> Decision2
+	Decision2 -> Correct_Door [label=Yes]
+	Decision2 -> Wrong_Door [label=No]
+	Correct_Door -> End2
+	Wrong_Door -> End2
+}

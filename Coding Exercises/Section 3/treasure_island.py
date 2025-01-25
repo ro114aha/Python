@@ -21,6 +21,7 @@ Your mission is to escape from Dragon Island
 ''')
 choise_1 =input("Do you want to go left or right? => ").lower()
 # if choise_1 == "left" or choise_1 == "Left" or choise_1 == "LEFT":
+# Decision 1 
 if choise_1 == "left" or choise_1 == "Left" or choise_1 == "LEFT":
     print('Good choise your still alive!:"Good to know".')
     choise2 = input('You\'re come to a lake.'
