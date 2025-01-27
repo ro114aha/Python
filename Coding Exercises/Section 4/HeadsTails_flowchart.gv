@@ -1,0 +1,7 @@
+digraph HeadsTails {
+    Start -> AskUser [label="Ask user to choose heads or tails"]
+    AskUser -> GenerateRandom [label="Generate a random choice"]
+    GenerateRandom -> CompareChoices [label="Compare user's choice with random choice"]
+    CompareChoices -> DisplayResult [label="Display the result"]
+    DisplayResult -> End
+}
