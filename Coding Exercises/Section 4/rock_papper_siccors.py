@@ -2,7 +2,9 @@
 # step1:  Start with welcome tekst
 # step2: create variable for rock,paper and siccors
 # step3: ask player to make a choise
+# step4: computer choise, create a list and random choose from this list rock, paper , siccors
 
+import random
 
 
 # Welcome tekst
@@ -46,3 +48,7 @@ print("Scissors:", Scissors)
 
 players_choise = input("please make your choise and enter here => ")
 print(f"Players choise is {players_choise}")
+
+# computer choise, create a list and random choose from this list rock, paper , siccors
+list_of_symbols = ["Rock","Paper", "Siccors"]
+print(random.choice(list_of_symbols))
