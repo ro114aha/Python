@@ -42,7 +42,7 @@ print("Rock:", Rock)
 print("Paper:", Paper)
 print("Scissors:", Scissors)    
 
-# step3: ask player to make a choise
+# Ask player to make a choise
 
 players_choise = input("please make your choise and enter here => ")
 print(f"Players choise is {players_choise}")
