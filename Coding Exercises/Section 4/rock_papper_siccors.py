@@ -4,6 +4,7 @@
 # step3: ask player to make a choise
 
 
+
 # Welcome tekst
 print("Let\'s play a game of ROCK, PAR or SICCORS")
 
