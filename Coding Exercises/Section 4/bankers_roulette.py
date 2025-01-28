@@ -7,3 +7,8 @@ import random
 friends = ["Mike", "Sjors", "Coby", "Laurien", "Bill"]
 who_pays = random.choice(friends)   
 print(who_pays)
+
+# Option 2
+friends = ["Mike", "Sjors", "Coby", "Laurien", "Bill"]
+random_index = random.randint(0,4)
+print(friends[random_index])
