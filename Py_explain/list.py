@@ -8,3 +8,19 @@ print(fruits)
 #extend
 fruits.extend(["banana", "kiwi", "grape"])
 print(fruits)
+
+
+# items in a list
+print(len(fruits))
+# ...existing code...
+
+# list of vegetables
+vegetables = ["carrot", "broccoli", "spinach", "potato", "tomato"]
+print(vegetables)
+
+# nested list
+
+dirty_dozen = [fruits, vegetables]
+
+print(dirty_dozen)
+
