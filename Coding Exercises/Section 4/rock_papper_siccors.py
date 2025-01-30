@@ -59,4 +59,12 @@ print(f"Computer choise is {computer_choise}")
 # Compare players choise with computer choise and print the winner.
 
 if players_choise == computer_choise:
-    print(f"Your choise {players_choise}is equal to computer choise{computer_choise} no winner. Play again?") 
+    print(f"Your choise {players_choise}is equal to computer choise {computer_choise} no winner. Play again?") 
+elif players_choise == "Rock" and computer_choise == "Paper":
+    print(f"Your choise {players_choise} Computer choise {computer_choise} You win. Play again?") 
+    print(f"Your choise {players_choise}is equal to computer choise {computer_choise} no winner. Play again?") 
+elif players_choise == "Paper" and computer_choise == "Rock":
+    print(f"Your choise {players_choise} Computer choise {computer_choise} You Lose. Play again?") 
+
+# Enzo on
+    
