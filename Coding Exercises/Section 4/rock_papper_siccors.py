@@ -3,6 +3,8 @@
 # step2: create variable for rock,paper and siccors
 # step3: ask player to make a choise
 # step4: computer choise, create a list and random choose from this list rock, paper , siccors
+# step5: compare players chise with computer choise and print the winner.
+
 
 import random
 
@@ -51,4 +53,5 @@ print(f"Players choise is {players_choise}")
 
 # computer choise, create a list and random choose from this list rock, paper , siccors
 list_of_symbols = ["Rock","Paper", "Siccors"]
-print(random.choice(list_of_symbols))
+print(f"Computer choise is {random.choice(list_of_symbols)}")
+
