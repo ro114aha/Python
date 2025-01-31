@@ -8,3 +8,25 @@
 
 # Welcome tekst FizzBuzz
 print("Welcome by FizzBuzz") 
+#Make a list for each number from 1 to 100 in turn and include number 100.
+# for number in range(1,101):
+    # print(number)
+#When the number is divisible by 3 print "Fizz".
+for number in range(1,101):
+    if number % 3 == 0:
+        print("Fizz")
+    elif number % 5 == 0 :
+        print("Buzz")
+    else:
+        print(number)
+
+# for number in range(1, 101):
+#     if number % 3 == 0 and number % 5 == 0:
+#         print("FizzBuzz")
+#     elif number % 3 == 0:
+#         print("Fizz")
+#     elif number % 5 == 0:
+#         print("Buzz")
+#     else:
+#         print(number)
+
