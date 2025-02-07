@@ -14,8 +14,8 @@ selected_letters = random.choices(letters, k=how_many_letters)
 # Step 1 make a list of numbers
 numbers = list(range(1, 12))
 #Step 2 Ask user how many numbers the password should contain
-how_many_numbers = input("How many numbers do you want for your password? enter here :")
-how_many_numbers = int(how_many_numbers)
+how_many_numbers = int(input("How many numbers do you want for your password? enter here :"))
+# how_many_numbers = int(how_many_numbers)
 #Step3 Select the number of random numbers specified by the user
 selected_numbers = random.choices(numbers, k=how_many_numbers)
 #SYMBOLS
@@ -33,7 +33,7 @@ random.shuffle(password_list)
 # Convert the list to a string
 password = ''.join(map(str, password_list))
 # Print the generated password
-print(password)
+print(f"The generated password is: {password}")
 
 
 
